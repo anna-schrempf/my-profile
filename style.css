@@ -1,0 +1,119 @@
+body {
+	background-color: #ECE7B4;
+	color: #406343;
+	font-family: monospace;
+	line-height: 1.8;
+}
+
+h1 {
+	color: #32502E;
+	font-family: initial;
+	font-weight: 500;
+	letter-spacing: 7px;
+	font-size: 40px;
+}
+
+h2 {
+	color: #32502E;
+	font-family: initial;
+	font-weight: 500; 
+	letter-spacing: 7px;
+}
+
+a {
+	text-decoration: none;
+	color: #32502E;
+}
+a:hover {
+	color: #7FC8A9;
+}
+
+#Anna {
+	width: 130px;
+	border-radius: 200%;
+}
+
+
+* Custom design with class (99% of your design) */
+
+.container {
+	width: 100px;
+	margin: 60px 0px;
+	padding: 0 px 30px;
+}
+
+.card-white {
+	background-color: #F3EFCC;
+	padding: 45px;
+	box-shadow: 0px 17px 37px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin: 60px 80px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+.btn-green {
+	background-color: #32502E;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 8px;
+}
+.btn-green:hover {
+	background-color: #7FC8A9;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 80px;
+}
+.list-inline i {
+	font-size: 30px;
+}
+
+/*Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 50px;
+}
+
+
+@media: (max-width: 960px) {
+	.container {
+		width:  700px;
+	}
+}
+
+@media: (max-width: 720px) {
+	.container {
+		width:  500px;
+	}
+}
+
+@media: (max-width: 540px) {
+	.container {
+		width:  300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
